@@ -1,0 +1,237 @@
+h1{
+	color:black;
+	text-align: left;
+	font-family: calibri;
+}
+strong{
+	color: yellow;
+}
+p{
+	color: white;
+}
+h2 {
+    color: white;
+}
+body{
+	background-color:0;
+    background-image: url('../img/fundo.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.corpo{
+	margin: 0 auto;
+    width: 1200px;
+    min-height: 1183px;
+    border: 3px Orange;
+    border-style: solid;
+    border-radius: 10px;
+}
+.cabecalho{
+	margin-top: 0px;
+    width: 100%;
+    height: 220px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    background: black;
+}
+.logo1{
+    margin-top: 0px;
+    margin-left: 3px;
+    width: 220px;
+    height: 210px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: black; 
+    float: left;
+    background-image: url('../img/logo.jpg');
+    background-position: center;
+}
+.logo2{
+    margin-right:  9px;
+    margin-top: 5px;
+    width: 960px;
+    height:210px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: grey; 
+    float: right;
+    background-image: url('../img/banner.jpg');
+}
+.menu{
+	margin-top: 2px;
+    width: 100%;
+    height: 60px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+    background-size: cover;
+}
+.centro1 {
+    margin-top: 2px;
+	width: 245px;
+	min-height: 600px;
+	border: 1px black;
+	border-style: solid;
+	border-radius: 10px;
+	float: left;
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+    background-size: cover;
+}
+.centro2 {
+    margin-top: 3px;
+    margin-left: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 942px;
+    min-height: 600px;
+    border: px black;
+    border-style: solid;
+    border-radius: 10px;
+    float: left;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+    background-size: cover;
+    text-align: justify;
+    font-family: calibri;
+}
+.c2{
+    margin: 2px;
+    padding: 3px;
+    width:220px;
+    min-height:330px;
+    border: 1px Orange;
+    border-style: solid;
+    border-radius: 10px;
+    float: left; 
+    text-align: justify;
+    font-family: calibri;
+    
+  }
+.rodape {
+    margin-top: 3px;
+    width: 100%;
+    height: 280px;
+    border: 0px black;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+    background-size: cover;
+    float: left;
+}
+.footer .footer{
+    height: 100%;
+    background: #000;
+    position: relative;
+}
+.footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer p{
+    font-size: 15px;
+    font-family: arial;
+}
+.sobre-nos {
+    margin-left: 30px;
+}
+.rede-sociais{
+    color: #fff;
+}
+.box{
+    padding: 3px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor:pointer;
+    transition: ali -4s ease;
+}
+.box:hover{
+    width: 200px;
+    color: white;
+}
+.box a{
+    color: white;
+}
+.box .icon{
+    color: white;
+}
+.Garena{
+     float: right;
+}
+ #menu-site ul {
+    margin: 0;
+    padding:0;
+    text-align: justify;
+    list-style: none;
+    font-size:20px;
+    font-family: helvetica;
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+#menu-site ul li {
+    list-style: none; 
+    margin: 9px;
+
+}
+#menu-site ul li a {
+    padding:  7px; 
+    margin-left: 20px;
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    border: 1px Orange;
+    border-radius: 10px;
+    border-style: solid;
+    display: inline-flex;
+}
+#menu-site ul li a:hover {
+    background: Khaki;
+    color: black;        
+}
+#menu-site  a{
+	float: left center ;
+	
+}
+#menu2 ul{
+    margin: 0;
+    padding:0;
+    text-align: justify;
+    list-style: none;
+    font-size:20px;
+    font-family: helvetica;
+    display: block;
+    margin-left: 20px;
+}
+#menu2 ul li{
+    list-style: none; 
+    display: block;
+}
+#menu2 ul li a {
+    padding:  8px; 
+    margin-left: 10px; 
+    text-decoration: none;
+    color:white;
+    border-bottom: 1px;
+    cursor: pointer;
+    border: 1px Orange;
+    border-radius: 8px;
+    display: block;
+    border-style: solid;    
+}
+#menu2 ul li a:hover {
+    background: Khaki;
+    color:black;    
+}
+#menu2  a{
+    float: left center ;
+}
+
