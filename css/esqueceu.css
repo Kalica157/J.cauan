@@ -1,54 +1,53 @@
 body {
 	background-image:url('../img/login.jpg');
-}
-
-.login {
+} 
+.senha{
 	background-color: rgba(0,0,0,0.5);
 	position: absolute;
 	top: 50%;
     left: 50%;
-    padding: 100px;
     transform: translate(-50%, -50%);
-    color: Orange;
-    font-family:calibri;
+    padding: 80px;
     border-radius: 15px;
-    font-size: 20px;
+    color: Orange;
+    font-size: 25px;
+    font-family: calibri;
 }
-.login h1{
-	color: Orange;
+.senha h1{
+	color:  Orange;
 }
-.login p a{
-	 
-	 text-decoration: none;
+a{
+	color: blue;
+	text-decoration: none;
 }
-input {
-	padding: 20px;
-	border: none;
-	border-radius: 15px;
-}
-
 button {
 	background-color: DarkGoldenrod;
 	border: none;
 	padding: 15px;
-	width: 100%;
+	width: 50%;
 	border-radius: 10px;
 	color: white;
 	font-size: 15px;
 	cursor: pointer;
 }
-
+input {
+	padding: 14px;
+	border: none;
+	border-radius: 15px;
+	width: 45%;
+}
 button:hover {
 	background-color: #ffe300;
 	cursor: pointer;
+
 }
+
  button a {
 	color: black;
 	text-decoration: none;
-	font-family: calibri;	
+	font-family: calibri;
+	font-size: 17px;
 }
 a{
-	color: white;
-	font-size: 15px;
-	text-decoration: none;
+	color: blue;
 }

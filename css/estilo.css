@@ -24,7 +24,7 @@ body{
 	margin: 0 auto;
     width: 1200px;
     min-height: 1183px;
-    border: 3px Orange;
+    border: 2px Orange;
     border-style: solid;
     border-radius: 10px;
 }
@@ -71,58 +71,53 @@ body{
     border-style: solid;
     border-radius: 10px;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("http://andreeabunget.co.uk/Img/footer.jpg");
     background-size: cover;
 }
-.centro1 {
-    margin-top: 2px;
-	width: 245px;
-	min-height: 600px;
-	border: 1px black;
-	border-style: solid;
-	border-radius: 10px;
-	float: left;
-	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
-    background-size: cover;
+.menu .botao{
+    float: right;
+    margin: 11px;
 }
+
 .centro2 {
     margin-top: 3px;
     margin-left: 2px;
     padding-left: 2px;
     padding-right: 2px;
-    width: 942px;
+    width: 1190px;
     min-height: 600px;
-    border: px black;
+    border: 0px black;
     border-style: solid;
     border-radius: 10px;
     float: left;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("http://andreeabunget.co.uk/Img/footer.jpg");
     background-size: cover;
     text-align: justify;
     font-family: calibri;
 }
 .c2{
     margin: 2px;
-    padding: 3px;
-    width:220px;
-    min-height:330px;
+    padding: 1px;
+    width:228px;
+    min-height:360px;
     border: 1px Orange;
     border-style: solid;
     border-radius: 10px;
     float: left; 
     text-align: justify;
     font-family: calibri;
+    margin-left: 50px;
     
   }
 .rodape {
     margin-top: 3px;
     width: 100%;
-    height: 280px;
+    height: 285px;
     border: 0px black;
     border-style: solid;
     border-radius: 10px;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("http://andreeabunget.co.uk/Img/footer.jpg");
     background-size: cover;
     float: left;
 }
@@ -146,7 +141,7 @@ body{
     color: #fff;
 }
 .box{
-    padding: 3px;
+    padding: 1px;
     margin: 0.6rem;
     position: relative;
     overflow: hidden;

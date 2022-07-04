@@ -1,0 +1,25 @@
+.c3{
+    margin: 2px;
+    padding: 1px;
+    width:170px;
+    min-height:10px;
+    border: 1px Orange;
+    border-style: solid;
+    border-radius: 10px;
+    float: left; 
+    text-align: justify;
+    font-family: calibri;
+    margin-left: 50px;
+  }
+  p{
+    font-family: calibri;
+    font-size: 17px;
+  }
+  .corpo{
+    margin: 0 auto;
+    width: 1200px;
+    min-height: 1382px;
+    border: 2px Orange;
+    border-style: solid;
+    border-radius: 10px;
+}

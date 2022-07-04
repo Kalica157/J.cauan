@@ -1,0 +1,19 @@
+.corpo{
+	width: 1200px;
+	min-height:1183px ;
+}
+
+.c3{
+    margin: 2px;
+    padding: 1px;
+    width:170px;
+    min-height:10px;
+    border: 1px Orange;
+    border-style: solid;
+    border-radius: 10px;
+    float: left; 
+    text-align: justify;
+    font-family: calibri;
+    margin-left: 50px;
+    text-decoration: none;
+  }

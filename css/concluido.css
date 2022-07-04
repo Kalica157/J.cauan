@@ -1,0 +1,22 @@
+body {
+	background-image:url('../img/login.jpg');
+} 
+.concluido{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 120px;
+    border-radius: 15px;
+    color: Orange;
+    font-size: 25px;
+    font-family: calibri;
+}
+.concluido p{
+	color: white;
+}
+a{
+	color: blue;
+	text-decoration: none;
+}
